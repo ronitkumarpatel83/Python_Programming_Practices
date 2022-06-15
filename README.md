@@ -1,5 +1,5 @@
 # Python_Programming_Practices
-#1 Basic Core programming of  python
+1 Basic Core programming of  python
 
 1. Flip Coin and print percentage of Heads and Tails
 2. Leap Year
@@ -8,3 +8,6 @@
 5. Factors
 6. Program to Compute Quotient and Remainder
 7. Program to Swap Two Numbers
+8. Program to Check Whether a Number is Even or Odd
+9. Program to Check Whether an Alphabet is Vowel or Consonant
+10. Program to Find the Largest Among Three Numbers
