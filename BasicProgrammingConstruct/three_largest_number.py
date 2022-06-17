@@ -5,15 +5,16 @@
 
 
 def three():
-    f = int(input("Enter the first number : "))
-    s = int(input("Enter the second number : "))
-    t = int(input("Enter the third number : "))
-    if f >= s and f >= t:
-        print("the largest number is : ", f)
-    elif s >= t:
-        print("the largest number is : ", s)
+    first = int(input("Enter the first number : "))
+    second = int(input("Enter the second number : "))
+    third = int(input("Enter the third number : "))
+ #   if first >= second and first >= third:
+    if second < first > third :
+        print("the first is the greatest number : ", first)
+    elif second >= third:
+        print("the second is the greatest number : ", second)
     else:
-        print("the largest number is : ", t)
+        print("the third is the greatest number : ", third)
 
 
 three()
