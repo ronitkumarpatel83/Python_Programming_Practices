@@ -4,14 +4,14 @@
 """
 import logging
 
-log = '%(lineno)d -- %(asctime)s -- %(message)s'
+log = '%(lineno)d ** %(asctime)s ** %(message)s'
 logging.basicConfig(filename='fibo.log', filemode='w', format=log, level=logging.DEBUG)
 
 
 def fib(n):
     """
     Writing here a program for fibonacci series
-    using try except exception
+    using try except exception and logging
     :param n:
     :return: nothing
     """
