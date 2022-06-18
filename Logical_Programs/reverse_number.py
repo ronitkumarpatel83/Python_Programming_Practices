@@ -5,7 +5,7 @@
 import logging
 
 log = '%(lineno)d -- %(asctime)s -- %(message)s'
-logging.basicConfig(filename='reverse_num.log', filemode='w', format=log, level=logging.DEBUG)
+logging.basicConfig(filename='reverse_num.log',encoding='utf-8', filemode='w', format=log, level=logging.DEBUG)
 
 
 def reverse_num(string):
@@ -24,7 +24,7 @@ def reverse_num(string):
 
     except Exception as e:
         print(e)
-        logging.warning("This code is only calculating the reverse number")
+        logging.exception("This code is only calculating the reverse number")
 
 
 if __name__ == "__main__":
